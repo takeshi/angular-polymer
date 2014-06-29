@@ -28,3 +28,21 @@
       width: 400px;
     }
   }
+
+[drawer] {
+  background-color: #B99588;
+  border-right: 1px solid #ccc;
+}
+
+[main] {
+  height: 100%;
+  background-color: #4F7DC9;
+}
+
+core-drawer-panel{
+  height: 100%;
+  width:100%;
+}
+core-drawer-panel[narrow] button {
+  display: inline-block
+}
